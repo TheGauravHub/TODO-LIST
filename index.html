@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TODO-LIST</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body class="text-white  bg-gradient-to-r from-[#a8f0cb] via-[#a3e5db] to-[#9cdaeb] min-h-screen">
+
+  <div class="container min-w-full  absolute">
+
+    <div class="navbar bg-[#0b1b2a] h-20 flex justify-between items-center px-10 text-xl  w-full">
+      <div class="logo">
+        <span class="material-symbols-outlined  text-4xl  text-[#7acb53]">
+          app_registration
+        </span>
+      </div>
+      <ul class="flex items-center gap-8 font-medium">
+        <li class="hover:text-[#7acb53] transition">Home</li>
+        <li class="hover:text-[#7acb53] transition">About</li>
+        <li class="hover:text-[#7acb53] transition">Contact</li>
+      </ul>
+      <div class="secondlogo">
+        <span class="material-symbols-outlined text-4xl text-[#7acb53]">
+          view_apps
+        </span>
+      </div>
+    </div>
+
+
+    <div class="content px-4 py-10 flex flex-wrap justify-center gap-8">
+
+
+      <div
+        class="addnew bg-white h-60 w-60 rounded-2xl shadow-lg flex flex-col items-center justify-center cursor-pointer hover:scale-105 transition duration-200">
+        <span class="material-symbols-outlined text-7xl text-[#b3c4ff]">
+          add_circle
+        </span>
+        <p class="text-[#b3c4ff] mt-2 text-lg font-semibold">Add new task</p>
+      </div>
+
+
+      <div
+        class="deleteall bg-white h-60 w-60  rounded-2xl shadow-lg flex flex-col items-center justify-center hover:scale-105 transition duration-200 cursor-pointer">
+        <span class="material-symbols-outlined text-7xl text-[#b3c4ff]">
+          cancel
+        </span>
+        <p class="text-[#b3c4ff] mt-2 text-lg font-semibold">Delete All</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
